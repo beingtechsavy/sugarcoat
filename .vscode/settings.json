@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/d9425f74-1dd1-4d20-8aa9-5764397cb7ba/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/Sugarcoat",
+    "appService.deploySubpath": "."
+}

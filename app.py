@@ -8,6 +8,7 @@ from flask import Flask, request, redirect,url_for, render_template, session
 
 
 
+
 app = Flask(__name__)
 
 @app.route('/',methods=['GET'])

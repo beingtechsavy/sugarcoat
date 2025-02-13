@@ -40,3 +40,46 @@ To set up this project on your local machine, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/ai-web-translator.git
+
+
+# AI Web Translator
+
+This project provides a simple web interface for translating text using the Azure Translator API.
+
+## Installation
+
+1. **Install dependencies:** Ensure you’re inside the project directory and install the required Python packages.
+
+```bash
+cd ai-web-translator
+pip install -r requirements.txt
+Set up your Azure Translator API key:
+
+Go to the Azure Portal and create a Translator resource.
+Copy your API key and Endpoint.
+Create a .env file in your project root and add:
+<!-- end list -->
+
+Ini, TOML
+
+AZURE_TRANSLATOR_KEY=your_api_key_here
+AZURE_TRANSLATOR_ENDPOINT=your_endpoint_here
+Run the application: Start the Flask server to launch the app locally:
+<!-- end list -->
+
+Bash
+
+python app.py
+Now, visit http://127.0.0.1:5000/ in your browser to interact with your AI-powered translator!
+
+✨ How It Works
+The app allows users to input text and select the language they want to translate to.  Upon submission, the Azure Translator API processes the request and returns the translated text. The app then displays the translation in real-time, giving the user immediate feedback.
+
+
+
+🧑‍🤝‍🧑 Contributing
+We welcome contributions to improve the project! Here’s how you can help:
+
+Report Bugs: Open an issue for any bugs you encounter.
+Submit a Pull Request: If you want to add a feature or improve the app, feel free to fork the repository and submit a PR.
+Documentation: Help us enhance the README or add additional documentation for ease of use.

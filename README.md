@@ -3,6 +3,7 @@
 Welcome to the **AI Web Translator** project! This web application allows users to translate text between languages using the power of **Azure Cognitive Services** and the simplicity of **Flask**.
 
 Whether you're a beginner in AI or a developer looking to explore the possibilities of cloud-based translation, this project is perfect for you! 🎉🌍
+link to the website :- https://sugarcoat.azurewebsites.net/
 
 ## 🚀 Features
 
